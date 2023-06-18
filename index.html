@@ -1,0 +1,963 @@
+<!doctype html>
+<html lang="pt-br" data-bs-theme="light">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  
+  <title>Travel Plan - London</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="fontawesome.min.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header data-bs-theme="dark" class="sticky-top">
+    <div class="text-bg-dark collapse" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="fs-2">Introducion</h4>
+            <p class="text-body-secondary">Work of the subject of English, about travel plane<br>
+              Students: Gustavo Luiz Gordoni And Rafael Augusto Soares.</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="fs-2">Topics</h4>
+            <ul class="list-unstyled">
+              <li><a href="#forecast" class="d-inline-flex focus-ring focus-ring-light py-1 px-2 text-decoration-none border rounded-2 text-white mb-3">Weather Forecast</a></li>
+              <li><a href="#brochure" class="d-inline-flex focus-ring focus-ring-light py-1 px-2 text-decoration-none border rounded-2 text-white mb-3">Travel brochure</a></li>
+              <li><a href="#packlist" class="d-inline-flex focus-ring focus-ring-light py-1 px-2 text-decoration-none border rounded-2 text-white mb-3">Packing checklist</a></li>
+              <li><a href="#Activies" class="d-inline-flex focus-ring focus-ring-light py-1 px-2 text-decoration-none border rounded-2 text-white mb-3">Activities list </a></li>
+              <li><a href="#" class="d-inline-flex focus-ring focus-ring-light py-1 px-2 text-decoration-none border rounded-2 text-white mb-3">Travel itinerary</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#home" class="navbar-brand d-flex align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-airplane-engines me-3" viewBox="0 0 16 16">
+            <path d="M8 0c-.787 0-1.292.592-1.572 1.151A4.347 4.347 0 0 0 6 3v3.691l-2 1V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.191l-1.17.585A1.5 1.5 0 0 0 0 10.618V12a.5.5 0 0 0 .582.493l1.631-.272.313.937a.5.5 0 0 0 .948 0l.405-1.214 2.21-.369.375 2.253-1.318 1.318A.5.5 0 0 0 5.5 16h5a.5.5 0 0 0 .354-.854l-1.318-1.318.375-2.253 2.21.369.405 1.214a.5.5 0 0 0 .948 0l.313-.937 1.63.272A.5.5 0 0 0 16 12v-1.382a1.5 1.5 0 0 0-.83-1.342L14 8.691V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v.191l-2-1V3c0-.568-.14-1.271-.428-1.849C9.292.591 8.787 0 8 0ZM7 3c0-.432.11-.979.322-1.401C7.542 1.159 7.787 1 8 1c.213 0 .458.158.678.599C8.889 2.02 9 2.569 9 3v4a.5.5 0 0 0 .276.447l5.448 2.724a.5.5 0 0 1 .276.447v.792l-5.418-.903a.5.5 0 0 0-.575.41l-.5 3a.5.5 0 0 0 .14.437l.646.646H6.707l.647-.646a.5.5 0 0 0 .14-.436l-.5-3a.5.5 0 0 0-.576-.411L1 11.41v-.792a.5.5 0 0 1 .276-.447l5.448-2.724A.5.5 0 0 0 7 7V3Z"></path>
+          </svg>
+
+          <strong class="fs-3">Menu</strong>
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+      </div>
+    </div>
+  </header>
+  <!-- END NAVBAR-->
+  <div class="d-flex homepage ps-lg-3" id="home">
+    <div class="bg-text rounded-3 pe-3">
+      <h1 class="large mb-5" id="cover">TRAVEL PLAN - LONDON</h1>
+      <p class="large1">Destination: London, United Kingdom</p><br>
+      <p class="large1">Date: 01/07/20223 --- 14/07/2023 </p><br>
+      <p class="large1">Season: Summer</p><br>
+      <p class="large1">Weather Forecast: Partly cloudy</p>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container mt-3">
+
+    <h2>Essential Information</h2>
+
+    <p>
+      The largest city in Western Europe and the EU, London is a diverse, vibrant, multicultural hub of frenetic energy;
+      an exciting city by all accounts, that boasts some of the world’s best sights and attractions.
+    </p>
+    <p>
+      Situated on the River Thames, the city is divided into 32 boroughs plus the City of London, and presents an
+      eclectic mix of the modern and the historical. Steeped in culture, music, fashion, finance and exhilarating
+      history, London is one of the world’s ‘global cities’ and even a short trip will reveal why.
+    </p>
+
+  </div>
+
+  <!-- CAROUSEL AND MAP -->
+  <div class="container-fluid my-4">
+
+    <div class="row mx-4">
+      <div class="col-7 p-3 cor-carrosel border bg-subtle border-black rounded-3 ">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="image/c1.jpg" class="d-block w-100" alt="">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="border border-light bg-body-secondary rounded-4 bg-opacity-25 fs-4 p-2">London
+                  Bridge</strong></h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image/c2.jpg" class="d-block w-100" alt="">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="border border-light bg-body-secondary rounded-4 bg-opacity-25 fs-4 p-2">London Eye</strong>
+                </h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image/c3.jpg" class="d-block w-100" alt="">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="border border-light bg-body-secondary rounded-4 bg-opacity-25 fs-4 p-2">Millenium
+                  Bridge</strong></h5>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="col p-3 border cor-carrosel bg-subtle border-black rounded-3 ms-2">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317718.69319292053!2d-0.3817765050863085!3d51.528307984912544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondres%2C%20Reino%20Unido!5e0!3m2!1spt-BR!2sbr!4v1687003921792!5m2!1spt-BR!2sbr"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+  <!-- END CAROUSEL AND MAP-->
+  <hr>
+  <!-- Weather Forecast-->
+  <div class="container text-center my-5">
+
+    <h1 id='forecast' class="text-center mb-4 bg-info bg-opacity-25 border border-info rounded p-3">Weather Forecast
+    </h1>
+
+    <div class="row">
+      <div class="col card p-2 m-2 rounded-4 border-3" style="width: 18rem;">
+        <h5 class="card-text"><strong>Average Hourly Temperature in July in London
+          </strong></h5>
+        <img src="image/d1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+
+          <div class="Figure-Legend-container Figure-Legend-with_bounds">
+
+            <em class="Figure-Legend-label" style="background: rgba(92,160,180,1);">frigid</em>
+            <span class="Figure-Legend-bound_outer">
+              <span class="Figure-Legend-bound">
+                <em>-9°C</em>
+              </span>
+            </span>
+
+            <em class="Figure-Legend-label" style="background: rgba(131,194,213,1);">freezing</em>
+            <span class="Figure-Legend-bound_outer">
+              <span class="Figure-Legend-bound">
+                <em>0°C</em>
+              </span>
+            </span>
+
+            <em class="Figure-Legend-label" style="background: rgba(103,149,104,1);">very cold</em>
+            <span class="Figure-Legend-bound_outer">
+              <span class="Figure-Legend-bound">
+                <em>7°C</em>
+              </span>
+            </span>
+
+            <em class="Figure-Legend-label" style="background: rgba(116,168,119,1);">cold</em>
+            <span class="Figure-Legend-bound_outer">
+              <span class="Figure-Legend-bound">
+                <em>13°C</em>
+              </span>
+            </span>
+
+            <em class="Figure-Legend-label" style="background: rgba(141,191,113,1);">cool</em>
+            <span class="Figure-Legend-bound_outer">
+              <span class="Figure-Legend-bound">
+                <em>18°C</em>
+              </span>
+            </span>
+
+            <em class="Figure-Legend-label" style="background: rgba(233,204,119,1);">comfortable</em>
+            <span class="Figure-Legend-bound_outer">
+              <span class="Figure-Legend-bound">
+                <em>24°C</em>
+              </span>
+            </span>
+
+            <em class="Figure-Legend-label" style="background: rgba(199,117,96,1);">warm</em>
+            <span class="Figure-Legend-bound_outer">
+              <span class="Figure-Legend-bound">
+                <em>29°C</em>
+              </span>
+            </span>
+
+            <em class="Figure-Legend-label" style="background: rgba(176,91,90,1);">hot</em>
+            <span class="Figure-Legend-bound_outer">
+              <span class="Figure-Legend-bound">
+                <em>35°C</em>
+              </span>
+            </span>
+
+            <em class="Figure-Legend-label" style="background: rgba(152,75,68,1);">sweltering</em>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col card p-2 m-2 rounded-4 border-3" style="width: 18rem;">
+        <h5 class="card-text"><strong>Average High and Low Temperature in July in London
+          </strong></h5>
+        <img src="image/d2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">The daily average high (red line) and low (blue line) temperature, with 25th to 75th and
+            10th to 90th percentile bands. The thin dotted lines are the corresponding average perceived temperatures.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row mt-3">
+      <div class="col card p-2 m-2 rounded-4 border-3" style="width: 18rem;">
+        <h5 class="card-text"><strong>Ability of Precipitation in July in London
+          </strong></h5>
+        <img src="image/d3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">The percentage of days in which various types of precipitation are observed, excluding
+            trace quantities: rain alone, snow alone, and mixed (both rain and snow fell in the same day).</p>
+
+        </div>
+      </div>
+
+      <div class="col card p-2 m-2 rounded-4 border-3" style="width: 18rem;">
+        <h5 class="card-text"><strong>Umidity In July </strong></h5>
+        <img id="d4" src="image/d4.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="Figure-Legend-container Figure-Legend-with_bounds">
+            <em class="Figure-Legend-label Figure-Legend-label_inverted"
+              style="background: rgba(232,241,243,1);">dry</em>
+            <span class="Figure-Legend-bound_outer">
+              <span class="Figure-Legend-bound">
+                <em>13°C</em>
+              </span>
+            </span>
+            <em class="Figure-Legend-label Figure-Legend-label_inverted"
+              style="background: rgba(206,239,189,1);">comfortable</em>
+            <span class="Figure-Legend-bound_outer">
+              <span class="Figure-Legend-bound">
+                <em>16°C</em>
+              </span>
+            </span>
+            <em class="Figure-Legend-label Figure-Legend-label_inverted"
+              style="background: rgba(255,255,198,1);">humid</em>
+            <span class="Figure-Legend-bound_outer">
+              <span class="Figure-Legend-bound">
+                <em>18°C</em>
+              </span>
+            </span>
+            <em class="Figure-Legend-label Figure-Legend-label_inverted"
+              style="background: rgba(255,198,165,1);">muggy</em>
+            <span class="Figure-Legend-bound_outer">
+              <span class="Figure-Legend-bound">
+                <em>21°C</em>
+              </span>
+            </span>
+            <em class="Figure-Legend-label Figure-Legend-label_inverted"
+              style="background: rgba(255,105,180,1);">oppressive</em>
+            <span class="Figure-Legend-bound_outer">
+              <span class="Figure-Legend-bound">
+                <em>24°C</em>
+              </span>
+            </span>
+            <em class="Figure-Legend-label Figure-Legend-label_inverted"
+              style="background: rgba(255,99,66,1);">miserable</em>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- End Weather Forecast-->
+
+  <hr>
+  <!-- TRAVEL BROCHURE -->
+  <div class="container text-center my-5">
+    <h1 class="text-center mb-4 bg-info bg-opacity-25 border border-info rounded p-3">Travel Brochure</h1>
+  </div>
+  <div class="container text-center  fundo d-flex justify-content-around my-5 ">
+
+    <div class="row">
+      <div class="col">
+        <div class="container mt-3">
+          <!-- Button trigger modal -->
+          <button type="button" class="brochure font btn border-4 rounded-pill p-3 btn-outline-warning  mt-4 ps-lg-3 " data-bs-toggle="modal" data-bs-target="#time-zone">
+            Time Zone
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="time-zone" tabindex="-1" aria-labelledby="time-zoneLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-1 mt-4" id="time-zoneLabel">Time Zone</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fs-3 justify">
+                  <p>GMT/TTC +00:00 houur, observes DST.</p>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-wrap">
+
+      </div>
+      <div class="col">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn border-4 rounded-pill p-3 btn-outline-warning font mt-4 ps-lg-3 brochure"
+          data-bs-toggle="modal" data-bs-target="#currency">
+          Currency
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="currency" tabindex="-1" aria-labelledby="currencyLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-1 mt-4" id="currencyLabel">Currency:</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body fs-3 row p-3 justify">
+                <p class="text-decoration-underline"> Pound. £1 = 100 pence.</p>
+                <p>Notes come in denominations of £5, £10, £20 and £50. Coins
+                  come in denominations of 1p, 2p, 5p, 10p, 20p,
+                  50p, £1 and £2.</p>
+                <img class="col card-img-top " src="image/libra.jpg" alt="libra" style="width: 4rem;">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-wrap">
+
+      </div>
+
+      <div class="col">
+
+        <!-- Button trigger modal -->
+
+        <button type="button" class="btn border-4 rounded-pill p-3 btn-outline-warning font mt-4 ps-lg-3 brochure"
+          data-bs-toggle="modal" data-bs-target="#electricity">
+          Electricity
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="electricity" tabindex="-1" aria-labelledby="electricityLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-1 mt-4" id="electricityLabel">Electricity:</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body fs-3 row p-3 justify">
+                <p>Electricity UK plugs have three square pins. The standard electricity supply in Britain is 230V but
+                  can
+                  be slightly higher. For compatible devices, you will probably need to use an adapter, which are
+                  easily
+                  found at airports or high street shops like Argos. For devices working on a lower voltage, however,
+                  you
+                  will need a converter, look for a dual-voltage (110v-240v). An idiosyncrasy of UK sockets, is that
+                  they
+                  come with a switch. So check that you have switched on any sockets you are using</p>
+                <img class="col card-img-top " src="image/socket.png" alt="socket" style="width: 4rem;">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://klook-res.cloudinary.com/image/upload/v1543393598/publication_qlvbgo.pdf" target="_blank">
+      <img class="width-100" src="image/brochure.png" alt="cape-brochure" id="brochure">
+    </a>
+    <div class="row">
+      <div class="col">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn border-4 rounded-pill p-3 btn-outline-warning font mt-4 ps-lg-3 brochure"
+          data-bs-toggle="modal" data-bs-target="#languages">
+          Languages
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="languages" tabindex="-1" aria-labelledby="languagesLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-1 mt-4" id="languagesLabel">Languages:</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body fs-3 row p-3 justify">
+                <p>Languages Unsurprisingly, the main spoken language is English; however London is the most
+                  linguistically diverse city in the world, with over 250 languages spoken! So whereas you may find that
+                  shopkeepers, taxi drivers and bus drivers speak only English, the tourist industry is well-equipped to
+                  welcome you in many languages. Information centers will have teams speaking at least 10 languages and
+                  there are tour guides available in over 40!
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-wrap">
+      </div>
+
+      <!-- Button trigger modal -->
+      <div class="col">
+        <button type="button" class="btn border-4 rounded-pill p-3 btn-outline-warning font mt-4 ps-lg-3 brochure"
+          data-bs-toggle="modal" data-bs-target="#internet">
+          Internet
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="internet" tabindex="-1" aria-labelledby="internet" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-1 mt-4" id="internetLabel">Internet:</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body fs-3 row p-3 justify">
+                <p>Internet London is very well connected and has a huge range of Internet cafes, providing internet
+                  access (plus photocopy and fax facilities at some places) for about £1 per hour. Or if you have your
+                  own
+                  device, you can access Wi-Fi almost anywhere at the plethora of coffee shops, restaurants and even
+                  some
+                  tube stations. The number of hotspots in London is growing, including O2 hotspots around Oxford
+                  Street,Regent Street, and many others. O2's website offers a searchable list of over 360 hotspots
+                  available in and around the London area lists all the local cafes, pubs, restaurants and more at which
+                  you can connect.</p>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-wrap">
+      </div>
+      <div class="col">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn border-4 rounded-pill p-3 btn-outline-warning font mt-4 ps-lg-3 brochure"
+          data-bs-toggle="modal" data-bs-target="#opening">
+          Opening Hours
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="opening" tabindex="-1" aria-labelledby="opening" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-1 mt-4" id="openingLabel">Opening Hours:</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body fs-3 row p-3 justify">
+                <p>
+                  Opening Hours Shops and department stores are usually open between 9 a.m. and 5/6 p.m. Monday to
+                  Saturday, with shorter opening times on Sunday, usually 11 a.m. to 6 p.m. However shopping centers
+                  like
+                  Westfield are open from 10 a.m. to 10 p.m. Monday to Saturday and 12 p.m. to 6 p.m. on Sundays. Many
+                  large supermarkets are open 24 hours from Sunday midnight to Saturday midnight and then again during
+                  the
+                  day on Sunday. Museum and attraction opening times are typically 10 a.m. to 5.30 p.m. every day, with
+                  some opening earlier and others closing later. Many museums and exhibition centers offer weekly or
+                  special late night openings too. Pubs are generally open from 11 a.m. until 11 p.m., but may stay open
+                  much later if they hav
+                </p>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!--  END TRAVEL BROCHURE -->
+
+  <!-- PACKING LIST-->
+  <div class="container" id="packlist">
+    <h1 id='packing list' class="text-center mb-4 bg-info bg-opacity-25 border border-info rounded p-3">Packing list
+    </h1>
+
+    <!-- ROW ONE-->
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">CLOTHES</h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mb-4">
+              <strong>
+                <li>Underwear</li>
+                <li>Socks</li>
+                <li>Sleepwear</li>
+                <li>Shirts, polos</li>
+                <li>Jeans, trousers</li>
+                <li>Shoes, sneakers</li>
+                <li>Flipflops, slippers</li>
+                <li>Jackets, coats, raincoats</li>
+                <li>Belts</li>
+                <li>Scarves, hats, gloves</li>
+                <li>Raincoat</li>
+              </strong>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">TOILETRIES</h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mb-4">
+              <strong>
+                <li>Toothbrush, paste, dental floss</li>
+                <li>Deodorant</li>
+                <li>Soap, shampoo</li>
+                <li>Towels</li>
+                <li>Tissues, toilet roll</li>
+                <li>Skin products</li>
+                <li>Brush, comb</li>
+                <li>Glasses, supplies</li>
+              </strong>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+
+            <h4 class="my-0 fw-normal">HEALTH</h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mb-4">
+              <strong>
+                <li>Medications, pain reliever</li>
+                <li>First aid kit</li>
+                <li>Insect repellent</li>
+                <li>Health/Dental checkup</li>
+                <li>Vitamins</li>
+              </strong>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ROW TWO -->
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">DOCUMENTS</h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <strong>
+                <li>Passport, visa</li>
+                <li>Tickets for airline, boat, train, bus</li>
+                <li>Copies of passport, tickets</li>
+                <li>Boarding pass</li>
+                <li>Health insurance card</li>
+                <li>List of medications, letter prescriber</li>
+                <li>Travel insurance</li>
+                <li>Student card</li>
+              </strong>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">FINANCIAL</h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <strong>
+                <li>Foreign currency</li>
+                <li>Emergency money</li>
+                <li>Credit card, debit card</li>
+                <li>Extra wallet</li>
+              </strong>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">DEVICES & APPLIANCES</h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <strong>
+                <li>Cell Phone</li>
+                <li>Charger</li>
+                <li>Adapter type G</li>
+                <li>Photo camera</li>
+                <li>Memory card</li>
+                <li>Laptop</li>
+                <li>Flashlight</li>
+                <li>Earphones</li>
+                <li>Pendrive</li>
+                <li>Re-usable water bottle</li>
+                <li>List of important phone numbers</li>
+              </strong>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  <hr>
+
+  </div>
+
+  <!-- ACTIVITIES LIST -->
+
+  <div class="container">
+    <h1 class="text-center mb-4 bg-info bg-opacity-25 border border-info rounded p-3">Activities list
+    </h1>
+
+    <!-- DAY 1 -->
+    <div class="row">
+      <div class="col-4 d-flex justify-content-center align-items-center flex-column mb-3">        
+        <h3 class="days">DAY ONE</h3>
+        <p>oi</p>
+      </div>
+
+      <div class="col-8">
+        <div id="day-one" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#day-one" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#day-one" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#day-one" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#day-one" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="image/votuporanga1.jpg" class="d-block w-100" alt="votuporanga">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="border border-light bg-body-secondary rounded-4 bg-opacity-25 fs-4 p-2">Voutuporanga</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image/guarulhos1.jpg" class="d-block w-100" alt="guarulhos">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Airport Guarulhos</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image/airport1.jpg" class="d-block w-100" alt="airport">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Airport Heatrow</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image/hotel.jpg" class="d-block w-100" alt="hotel">
+              <div class="carousel-caption d-none d-md-block">
+                <h5> Nobu Hotel</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#day-one" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#day-one" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </div><!-- fecha row -->
+
+    <!-- DAY 2 -->
+    <div class="row my-5">
+      
+      <div class="col-9">
+        <div id="day-two" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#day-two" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#day-two" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#day-two" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#day-two" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="image/sherlock1.jpg" class="d-block w-100" alt="Sherlock">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="border border-light bg-body-secondary rounded-4 bg-opacity-25 fs-4 p-2">Museu Sherlock Holmes</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image/Madame1.jpg" class="d-block w-100" alt="Madame">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Madame Tussauds Museum</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image/parks1.jpg" class="d-block w-100" alt="Park">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Regent's Park</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image/fischer1.jpg" class="d-block w-100" alt="Fischer">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Fischer's</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#day-two" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#day-two" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+      </div>
+      
+      <div class="col-3 d-flex justify-content-center align-items-center flex-column mb-3">
+        <h3>DAY TWO</h3>
+        <p>oi</p>
+      </div>
+      
+    </div><!-- fecha row -->
+
+    <!-- DAY 3 -->
+    <div class="row">
+      <div class="col-4 d-flex justify-content-center align-items-center flex-column mb-3">        
+        <h3 class="days">DAY THREE</h3>
+        <p>oi</p>
+      </div>
+
+      <div class="col-8">
+        <div id="day-three" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#day-theree" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#day-three" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#day-three" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#day-three" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="image/votuporanga1.jpg" class="d-block w-100" alt="votuporanga">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="border border-light bg-body-secondary rounded-4 bg-opacity-25 fs-4 p-2">First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image/guarulhos1.jpg" class="d-block w-100" alt="guarulhos">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image/airport1.jpg" class="d-block w-100" alt="airport">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image/hotel.jpg" class="d-block w-100" alt="hotel">
+              <div class="carousel-caption d-none d-md-block">
+                <h5> slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#day-three" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#day-three" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </div><!-- fecha row -->
+
+    <!-- DAY 4 -->
+    <div class="row my-5">
+      
+      <div class="col-9">
+        <div id="day-two" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#day-two" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#day-two" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#day-two" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#day-two" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="image/votuporanga1.jpg" class="d-block w-100" alt="votuporanga">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="border border-light bg-body-secondary rounded-4 bg-opacity-25 fs-4 p-2">First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image/guarulhos1.jpg" class="d-block w-100" alt="guarulhos">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image/airport1.jpg" class="d-block w-100" alt="airport">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image/hotel.jpg" class="d-block w-100" alt="hotel">
+              <div class="carousel-caption d-none d-md-block">
+                <h5> slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#day-two" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#day-two" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+      </div>
+      
+      <div class="col-3 d-flex justify-content-center align-items-center flex-column mb-3">
+        <h3>DAY FOUR</h3>
+        <p>oi<p>
+      </div>
+      
+    </div><!-- fecha row -->
+
+
+
+
+
+
+
+
+    
+  </div> <!-- FECHA CONTAINER-->
+
+  
+  <!-- END ACTIVITIES LIST -->
+</div> 
+
+<!-- FOOTER -->
+<footer class="footer mt-2" id="footer">
+  <div class="bottom-bar">
+      <div class="container">
+        <span class="copyright text-center w-100"> © 2023 Rafael e Gustavo || IFSP CAMPUS VOTUPORANGA <br>
+          <span>Developed <i class="fas fa-heart"></i> in Votuporanga by students of the Technical Course in
+            Integrated Informatics with High School</span>
+          <!--  -->
+        </span>
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end bottom-bar -->
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  
+
+  <script src="dist/smooth-scrollbar.js"></script>
+  <script>
+    var Scrollbar = window.Scrollbar;
+
+    Scrollbar.init(document.querySelector('#my-scrollbar'));
+  </script>
+
+</body>
+
+</html>
