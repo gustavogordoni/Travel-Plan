@@ -5,9 +5,6 @@
 <p>Este trabalho foi elaborado como parte das atividades da disciplina de Inglês, durante o segundo ano do ensino médio, no Campus Votuporanga do Instituto Federal de São Paulo (IFSP). 
 O objetivo primordial foi a criação de um plano de viagem, estruturado na forma de um website, disponibilizado por meio do GitHub Pages.</p>
 
-## Proposta
-Este plano de viagem busca descreve os elementos essenciais necessários para um itinerário de viagem abrangente. Ele inclui informações sobre destino, previsão do tempo, materiais promocionais, lista de itens para levar, lista de atividades e itinerário dia a dia.
-
 ## Requisitos
 Para ser completo, o plano de viagem necessitaria incluir:
 
