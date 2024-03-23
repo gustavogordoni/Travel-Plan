@@ -24,4 +24,6 @@ Para ser completo, o plano de viagem necessitaria incluir:
   - Atividades programadas para cada local e ponto do mapa;
 
 ### Para acessar o resultado final do projeto, acesse o link: 
-<a href="https://augustosra.github.io/Trab_ingles_1/" target="_self">https://augustosra.github.io/Trab_ingles_1/</a>
+```csharp
+https://augustosra.github.io/Trab_ingles_1/
+```
